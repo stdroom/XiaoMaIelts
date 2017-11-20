@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="恭喜你"
+        android:textSize="30sp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/app_color"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="完成了今日的学习任务"
+        android:textSize="21sp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/app_color"/>
+    
+
+    <Button
+        android:id="@+id/steplittle_end_study_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="继续学习"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>

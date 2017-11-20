@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+    
+    <include layout="@layout/app_header" />
+    
+    <ProgressBar
+        android:id="@+id/score_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:layout_margin="17dp"
+        android:minHeight="17dp"
+        android:maxHeight="17dp"
+        style="?android:attr/progressBarStyleHorizontal"  
+        android:indeterminateOnly="false"
+        android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal"
+        android:layout_gravity="center_vertical" 
+        android:progressDrawable="@drawable/progressbar_score"
+        android:visibility="gone"/>
+    <com.xiaoma.ielts.android.widget.NoFlingViewPager
+        android:id="@+id/fragment_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+</LinearLayout>

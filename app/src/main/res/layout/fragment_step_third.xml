@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:id="@+id/third_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+	 	<ScrollView 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent">
+		        <RelativeLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:background="#ffffff">
+		            <RelativeLayout
+		                android:id="@+id/top_half_rl"
+		                android:layout_width="match_parent"
+		                android:layout_height="wrap_content">
+		                <RelativeLayout 
+					        android:id="@+id/tv_container_rl"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:background="#ffffff"
+					        android:paddingBottom="10dp"
+					        android:visibility="visible"/>
+					    
+					    <TextView
+					        android:id="@+id/tv_tips"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:layout_margin="@dimen/min_tv_tips_margin"
+					        android:textColor="#b2b2b2"
+					        android:background="#ffffff"
+					        android:layout_below="@id/tv_container_rl"
+					        android:text="将单词按顺序拖动到下方的格子中，组成原句"/>
+					    <RelativeLayout 
+					        android:id="@+id/tv_answer_rl"
+					        android:layout_below="@id/tv_tips"
+					        android:layout_width="match_parent"
+					        android:padding="17dp"
+					        android:visibility="gone"
+					        android:layout_height="wrap_content">
+					        
+					        <TextView
+					            android:id="@+id/right_answer_tips"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:textSize="17sp"
+					            android:text="正确答案"
+					            android:textColor="#999999"/>
+					        <TextView 
+					            android:id="@+id/right_answer_tv"
+					            android:layout_width="match_parent"
+					            android:layout_height="wrap_content"
+					            android:textColor="@color/text_color_green"
+					            android:textSize="16sp"
+					            android:layout_below="@id/right_answer_tips"
+					            android:layout_marginTop="19dp"/>
+					    </RelativeLayout>
+		            </RelativeLayout>
+				    <RelativeLayout
+				        android:id="@+id/sentenceAnswer"
+				        android:layout_below="@id/top_half_rl"
+				        android:layout_alignParentBottom="true"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:paddingBottom="@dimen/min_tv_bottom_margin"
+				        android:background="#eeeeee"/>
+				    
+				    <RelativeLayout
+				        android:id="@+id/sentenceAnswerRl"
+				        android:layout_alignTop="@id/sentenceAnswer"
+				        android:layout_alignBottom="@id/sentenceAnswer"
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:paddingLeft="17dp"
+				        android:paddingRight="17dp"
+				        android:paddingTop="10dp"
+				        android:paddingBottom="10dp"
+				        android:visibility="gone"
+				        android:background="#eeeeee">
+					    <TextView 
+					        android:id="@+id/sentenceAnswerTv"
+					        android:layout_width="match_parent"
+					        android:layout_centerVertical="true"
+					        android:background="#eeeeee"
+					        android:textColor="#22D0BE"
+					        android:textSize="22sp"
+					        android:layout_height="wrap_content"/>
+				    </RelativeLayout>
+		        </RelativeLayout>
+	            
+	    </ScrollView>
+        
+    </RelativeLayout>
+</LinearLayout>

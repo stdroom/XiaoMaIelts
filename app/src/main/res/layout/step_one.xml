@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp" >
+
+        <ImageView
+            android:id="@+id/stepOne_playRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/step_record_selector"
+            android:src="@drawable/step_record_animation_list"/>
+
+        <TextView
+            android:id="@+id/stepOne_stepChin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="我们的问题和你说的不相干"
+            android:textColor="#333333"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    
+    <com.xiaoma.ielts.android.widget.DaubTextView
+            android:id="@+id/step_one_stepEng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dip"
+            android:paddingLeft="16dip"
+            android:paddingRight="16dip"
+            android:paddingTop="7dip"
+            android:text="I'm a studetn but because how are you!you&apos;re jhas jkdh ljal skjdkl jj kljsdnkja nakj."
+            android:textColor="#333333"
+            android:textScaleX="1.1"
+            android:textSize="20sp" />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#999999"
+        android:text="看看句子中文，你会怎么表达呢？然后刮开看看吧~"/>
+    
+    <RelativeLayout 
+        android:id="@+id/recording_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_weight="1">
+        
+       	<com.xiaoma.ielts.android.widget.RoundProgressBar
+             android:id="@+id/roundProgressBar"
+             android:layout_width="@dimen/recording_progress"
+             android:layout_height="@dimen/recording_progress"
+             android:layout_centerInParent="true"
+             android:layout_gravity="center"
+             android:visibility="gone"/>
+
+          <ImageView
+              android:id="@+id/iv_exer_recorder"
+              android:layout_width="@dimen/recording_img"
+              android:layout_height="@dimen/recording_img"
+			  android:layout_centerInParent="true"
+              android:layout_gravity="center"
+              android:background="@drawable/record_btn2_nor" />
+
+          <TextView
+              android:id="@+id/tv_recorder_time"
+              android:layout_width="@dimen/recording_progress"
+              android:layout_height="@dimen/recording_progress"
+              android:layout_centerInParent="true"
+              android:text="30s"
+              android:gravity="center"
+              android:textColor="#ffffffff"
+              android:textSize="@dimen/px30"
+              android:visibility="gone" />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/record_play_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <RelativeLayout 
+	          android:id="@+id/item_record_layout"
+	          android:layout_width="241dp"
+	          android:layout_centerInParent="true"
+	          android:layout_height="35dp"
+	          android:visibility="visible"
+	          android:background="@drawable/circle_rectangle_green_bg">
+	          <ImageView
+	              android:id="@+id/item_play_img"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_marginLeft="10dp"
+	              android:layout_centerVertical="true"
+	              android:src="@drawable/record_animation_list"/>
+	          <TextView
+	              android:id="@+id/item_count_time_tv"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:text=""
+	              android:layout_marginRight="10dp"
+	              android:textColor="#22D0BE"
+	              android:layout_alignParentRight="true"
+	              android:layout_centerVertical="true"
+	              android:textSize="@dimen/font_size_30px"/>
+	      </RelativeLayout>
+	      <ImageView
+	          android:id="@+id/post_delete_img"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:layout_marginTop="-5dp"
+	          android:layout_marginRight="-5dp"
+	          android:layout_alignRight="@id/item_record_layout"
+	          android:layout_alignTop="@id/item_record_layout"
+	          android:src="@drawable/post_record_delete"/>
+    </RelativeLayout>
+
+    <RelativeLayout 
+        android:id="@+id/basestep_fragment_next"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#f4f4f4">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下一个"
+            android:textColor="@color/app_color"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"/>
+        
+    </RelativeLayout>
+    
+</LinearLayout>

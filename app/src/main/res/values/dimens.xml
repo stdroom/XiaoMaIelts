@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="px10">10px</dimen>
+    <dimen name="px15">15px</dimen>
+    <dimen name="px16">16px</dimen>
+    <dimen name="px20">20px</dimen>
+    <dimen name="px25">25px</dimen>
+    <dimen name="px30">30px</dimen>
+    <dimen name="px35">35px</dimen>
+    <dimen name="px40">40px</dimen>
+    <dimen name="px45">45px</dimen>
+    <dimen name="px50">50px</dimen>
+    <dimen name="px55">55px</dimen>
+    <dimen name="px60">60px</dimen>
+    <dimen name="px65">65px</dimen>
+    <dimen name="px70">70px</dimen>
+    <dimen name="px75">75px</dimen>
+    <dimen name="px80">80px</dimen>
+    <dimen name="px85">85px</dimen>
+    <dimen name="px90">90px</dimen>
+    <dimen name="px95">95px</dimen>
+    <dimen name="px100">100px</dimen>
+    <dimen name="px105">105px</dimen>
+    <dimen name="px110">110px</dimen>
+    <dimen name="px115">115px</dimen>
+    <dimen name="px120">120px</dimen>
+    <dimen name="px125">125px</dimen>
+    <dimen name="px130">130px</dimen>
+    <dimen name="px135">135px</dimen>
+    <dimen name="px140">140px</dimen>
+    <dimen name="px145">145px</dimen>
+    <dimen name="px150">150px</dimen>
+    <dimen name="px155">155px</dimen>
+    <dimen name="px160">160px</dimen>
+    <dimen name="px165">165px</dimen>
+    <dimen name="px170">170px</dimen>
+    <dimen name="px175">175px</dimen>
+    <dimen name="px180">180px</dimen>
+    <dimen name="px185">185px</dimen>
+    <dimen name="px190">190px</dimen>
+    <dimen name="px195">195px</dimen>
+    <dimen name="px200">200px</dimen>
+    <dimen name="px205">205px</dimen>
+    <dimen name="px210">210px</dimen>
+    <dimen name="px215">215px</dimen>
+    <dimen name="px220">220px</dimen>
+    <dimen name="px225">225px</dimen>
+    <dimen name="px230">230px</dimen>
+    <dimen name="px235">235px</dimen>
+    <dimen name="px240">240px</dimen>
+    <dimen name="px245">245px</dimen>
+    <dimen name="px250">250px</dimen>
+    <dimen name="px255">255px</dimen>
+    <dimen name="px260">260px</dimen>
+    <dimen name="px265">265px</dimen>
+    <dimen name="px270">270px</dimen>
+    <dimen name="px275">275px</dimen>
+    <dimen name="px280">280px</dimen>
+    <dimen name="px285">285px</dimen>
+    <dimen name="px290">290px</dimen>
+    <dimen name="px295">295px</dimen>
+    <dimen name="px300">300px</dimen>
+    <dimen name="px305">305px</dimen>
+    <dimen name="px310">310px</dimen>
+    <dimen name="px315">315px</dimen>
+    <dimen name="px320">320px</dimen>
+    <dimen name="px325">325px</dimen>
+    <dimen name="px330">330px</dimen>
+    <dimen name="px335">335px</dimen>
+    <dimen name="px340">340px</dimen>
+    <dimen name="px345">345px</dimen>
+    <dimen name="px350">350px</dimen>
+    <dimen name="px355">355px</dimen>
+    <dimen name="px360">360px</dimen>
+    <dimen name="px365">365px</dimen>
+    <dimen name="px370">370px</dimen>
+    <dimen name="px375">375px</dimen>
+    <dimen name="px380">380px</dimen>
+    <dimen name="px385">385px</dimen>
+    <dimen name="px390">390px</dimen>
+    <dimen name="px395">395px</dimen>
+    <dimen name="px400">400px</dimen>
+
+
+    <!-- 友盟反馈 集成 added by leixun  -->
+    <dimen name="umeng_fb_item_height">48dp</dimen>
+    <dimen name="umeng_fb_item_content_size">14sp</dimen>
+    <dimen name="umeng_fb_item_time_size">12sp</dimen>
+    <dimen name="umeng_fb_item_line_height">0.8dp</dimen>
+    <dimen name="umeng_fb_spinner_padding_left">12dp</dimen>
+    <dimen name="umeng_fb_record_btn_text_size">20sp</dimen>
+    <dimen name="umeng_fb_normal_size">13dp</dimen>
+
+    <!-- 雅思口语app 所有字号  added by leixun
+   		 若有新字体大小 请在此添加 app中尽量采用此处 字号 方便适配所有机型-->
+    <dimen name="font_size_22px">12sp</dimen>
+    <dimen name="font_size_24px">13sp</dimen>
+    <dimen name="font_size_28px">14sp</dimen>
+    <dimen name="font_size_30px">15sp</dimen>
+    <dimen name="font_size_32px">16sp</dimen>
+    <dimen name="font_size_34px">17sp</dimen>
+    <dimen name="font_size_38px">22sp</dimen>
+    <dimen name="font_size_40px">23sp</dimen>
+    <dimen name="font_size_45px">25sp</dimen>
+
+    <!-- 输入框高度 -->
+    <dimen name="common_edit_height">45dp</dimen>
+
+    <dimen name="login_edit_height">50dp</dimen>
+
+    <!-- 发帖 边距 -->
+    <dimen name="post_margin">15dp</dimen>
+
+    <!-- 圆环大小 图片大小-->
+    <dimen name="recording_progress">83dp</dimen>
+    <dimen name="recording_img">77dp</dimen>
+
+    <!-- 口语900句 第三部练习 -->
+    <dimen name="custom_textview_padding_left">15dp</dimen>
+    <dimen name="custom_textview_padding_right">15dp</dimen>
+    <dimen name="custom_textview_padding_top">2dp</dimen>
+    <dimen name="custom_textview_padding_bottom">3dp</dimen>
+    <dimen name="custom_textview_gaps_x">10dp</dimen>
+    <dimen name="custom_textview_gaps_y">10dp</dimen>
+
+    <!-- 自定义toast -->
+    <dimen name="ttlm_default_padding">20dip</dimen>
+    <dimen name="ttlm_default_corner_radius">4dip</dimen>
+    <dimen name="ttlm_default_stroke_weight">0sp</dimen>
+
+    <dimen name="min_tv_tips_margin">20dp</dimen>
+    <dimen name="min_tv_bottom_margin">10dp</dimen>
+    <dimen name="score_progress_height">17dp</dimen>
+
+    <dimen name="steptwo_edittext_height">60dp</dimen>
+</resources>
